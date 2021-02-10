@@ -115,14 +115,34 @@ hr{
 }
 
 
-.progdata,td,th,tr{
+.progdata{
 
     font-family: American Typewriter, serif;
     text-align: center;
     border: none;
     border-collapse: collapse;
-    color: HotPink;
+    color: black;
     margin: 15px;
+}
+
+td{
+
+    white-space: nowrap;
+    width: 1000px;
+    height: 35px;
+
+}
+
+td:hover{
+
+  font-size: 150%;
+
+}
+
+.headerrow{
+
+    color: green;
+
 }
 
 
