@@ -179,3 +179,20 @@ td:hover{
 
 }
 
+h1{
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.News{
+
+  width: 100%;
+  font-family: American Typewriter, serif;
+  font-size: 30px;
+  margin-left: 1%;
+  text-align: left;
+  
+
+
+}
