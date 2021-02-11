@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Montserrat:400,700');
+
 a:link {
   color: HotPink;
   background-color: transparent;
@@ -36,8 +38,8 @@ hr{
 
 .logotext{
 
-  font-family: American Typewriter, serif;
-  font-size: 60px;
+font-family: American Typewriter, serif;
+font-size: 20px;
 
 }
 
@@ -47,7 +49,7 @@ hr{
   border-radius: 17px;
   color: black;
   padding: 8px;
-  font-size: 16px;
+  font-size: 15px;
   border: solid black;
   margin: 30px;
   font-family: American Typewriter, serif;
@@ -117,12 +119,13 @@ hr{
 
 .progdata{
 
-    font-family: American Typewriter, serif;
+  font-family: American Typewriter, serif;
     text-align: center;
     border: none;
     border-collapse: collapse;
     color: black;
     margin: 15px;
+    font-size: 15px;
 }
 
 td{
@@ -136,6 +139,18 @@ td{
 td:hover{
 
   font-size: 150%;
+  transition: 0.3s;
+  background-color: hotpink;
+  border-radius: 15px;
+
+}
+
+.bgch1:hover{
+
+  font-size: 150%;
+  transition: 0.3s;
+  background-color: black;
+  border-radius: 15px;
 
 }
 
@@ -145,5 +160,22 @@ td:hover{
 
 }
 
+.bottombtn{
 
+  position: absolute;
+  left: 40%;
+  font-family: American Typewriter, serif;
+  color: hotpink;
+
+}
+
+.bottomfont{
+
+  font-family: American Typewriter, serif;
+  color: black;
+  background-color: hotpink;
+  cursor: grab;
+  font-size: 18px;
+
+}
 
