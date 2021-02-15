@@ -15,7 +15,7 @@ a:visited {
 a:hover {
   color: Green;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
@@ -31,10 +31,6 @@ hr{
   border-radius: 5px;
 }
 
-.header-class{
-
-  background-color: Azure;
-}
 
 .logotext{
 
@@ -181,7 +177,7 @@ td:hover{
 
 h1{
     text-align: center;
-    font-size: 45px;
+    font-size: 60px;
 
 }
 
@@ -270,6 +266,40 @@ footer{
 }
 
 
+.wrapnews{
 
+    width: 1422px;
+    height: 200px;
+    overflow: hidden;
+    font-family: Passion One, serif;
+    background-image: linear-gradient(to bottom right, #ffd89b , #19547b);
+    margin: left;
+    border-radius: 20px;
+    font-size: 40px;
 
+}
+
+.newsimage{
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    font-family: Passion One, serif;
+    border-radius: 20px;
+
+}
+
+.newstext{
+
+    float: left;
+    font-family: Passion One, serif;
+    text-align: left;
+    font-size: 10px;
+}
+
+.newsbttext{
+
+  font-family: American Typewriter, serif;
+  font-size: 20px;
+}
 
